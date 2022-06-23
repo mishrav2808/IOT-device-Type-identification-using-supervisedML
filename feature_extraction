@@ -1,1 +1,9 @@
-
+Feature Extraction
+  pcap file feature extraction
+● A python script was written to extract features from pcap files and represent them in the vector space model.
+● The labels were assigned based on the type of devices that sent the packets.
+● There are 7 iot device folders (D-LinkCamera, D-Link DoorSensor,D-LinkHomeHub, D-LinkSensor, D-LinkSiren, D-LinkSwitch,D-LinkWaterSensor). 
+  So, in the end there were 7 labels or classes.
+● The device type is judged by the folder the files were present in.
+● 18 features were extracted from each of the packages from the 7
+devices.
